@@ -1,0 +1,32 @@
+[
+  {
+    "title": "the-little-mermaid-title.png",
+    "imagePathCarousel": "movies/the-little-mermaid.jpeg",
+    "imagePathBg": "movies/bg-little-mermaid.jpg",
+    "href": "#one!"
+  },
+  {
+    "title": "the-65-title.png",
+    "imagePathCarousel": "movies/65.jpg",
+    "imagePathBg": "movies/bg-65.jpeg",
+    "href": "#two!"
+  },
+  {
+    "title": "the-covenant-title.png",
+    "imagePathCarousel": "movies/the-covenant.jpg",
+    "imagePathBg": "movies/bg-the-covenant.jpeg",
+    "href": "#three!"
+  },
+  {
+    "title": "the-black-demon-title.png",
+    "imagePathCarousel": "movies/the-black-demon.jpg",
+    "imagePathBg": "movies/bg-the-black-demon.jpeg",
+    "href": "#four!"
+  },
+  {
+    "title": "the-tank-title.png",
+    "imagePathCarousel": "movies/the-tank.jpeg",
+    "imagePathBg": "movies/bg-the-tank.jpeg",
+    "href": "#five!"
+  }
+]

@@ -1,0 +1,105 @@
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.banner::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.banner_content {
+  position: relative;
+  max-width: 550px;
+  display: none;
+  visibility: hidden;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.active {
+  display: block;
+  visibility: visible;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.banner_title {
+  max-width: 250px;
+}
+
+.banner_details {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.banner_details span {
+  padding: 0 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.banner_details span:last-child {
+  border-right: none;
+}
+
+.banner_details span i {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 0 8px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.banner_content p {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #fff;
+  margin: 10px 0 20px;
+}
+
+.banner_buttons {
+  position: relative;
+}
+
+.banner_buttons a {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.banner_buttons a:nth-child(2) {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner_buttons a:hover:nth-child(2) {
+  background: var(--primary);
+}
